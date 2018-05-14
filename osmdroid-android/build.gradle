@@ -1,8 +1,9 @@
 description = 'An Android library to display OpenStreetMap views.'
 apply plugin: 'com.android.library'
-apply from: "https://raw.githubusercontent.com/gradle-fury/gradle-fury/v1.1.4/gradle/android-support.gradle"
+//apply from: "https://raw.githubusercontent.com/gradle-fury/gradle-fury/master/gradle/android-support.gradle"
 
 android {
+    compileSdkVersion 27
     lintOptions {
         abortOnError false
     }
